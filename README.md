@@ -20,7 +20,12 @@ For both cases the compensation will be automatically calculated based on indivi
 ---
 ## How to run
 
-You need to create a virtual env and install the libraries listed on `requirements.txt`
+You need to create a virtual env(python3.11) 
+```
+python3.11 -m venv .venv
+```
+
+Then install the libraries listed on `requirements.txt`
 
 ```
 (env)$ pip install -r requirements.txt
@@ -28,7 +33,6 @@ You need to create a virtual env and install the libraries listed on `requiremen
 In order to run the API, inside your virtual env:
 
 ```
-(env)$cd mvp_fullstack
 
 (env)$ python -m flask --app app run --host 0.0.0.0 --port 5002
 
